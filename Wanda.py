@@ -130,27 +130,27 @@ if __name__ == "__main__":
 
         elif 'my computer' in query:
             speak("opening My computer")
-            path="C:\\Users\\Anirudh\\Desktop"
+            path="C:\\Users\\VarsshaDB\\Desktop"
             os.startfile(path)
 
         elif 'open pictures' in query:
             speak("opening pictures")
-            path="C:\\Users\\Anirudh\\pictures"
+            path="C:\\Users\\VarsshaDB\\pictures"
             os.startfile(path)
 
         elif 'open videos' in query:
             speak("opening videos")
-            path="C:\\Users\\Anirudh\\videos"
+            path="C:\\Users\\VarsshaDB\\videos"
             os.startfile(path)
 
         elif 'open games' in query:
             speak("opening games")
-            path="C:\\Users\\Anirudh\\saved games"
+            path="C:\\Users\\VarsshaDB\\saved games"
             os.startfile(path)
 
         elif 'open downloads' in query:
             speak("opening downloads")
-            path="C:\\Users\\Anirudh\\Downloads"
+            path="C:\\Users\\VarsshaDB\\Downloads"
             os.startfile(path)
 
         elif 'search' in query:
@@ -198,7 +198,7 @@ if __name__ == "__main__":
             speak('Here are some headlines from the Times of India,Happy reading')
             
         elif "your name"  in query:
-            speak('my name is falcon')
+            speak('my name is WANDA')
 
         elif 'quit' in query:
             speak("have a great day!!")
